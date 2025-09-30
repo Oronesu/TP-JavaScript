@@ -12,7 +12,7 @@ Dépot TP JavaScript pour cours Technologies du Web de R. Tomczak
 
 2. Ouvrez `index.html` sur votre navigateur de choix.
    
-⚠️ Attention :Certains elements peuvent ne pas marcher a cause de l'utilisation de WebKit (uniquement sur navigateurs Chromium)
+⚠️ Attention  Certains elements peuvent ne pas marcher a cause de l'utilisation de WebKit (uniquement sur navigateurs Chromium)
 
 ---
 
