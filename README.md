@@ -16,7 +16,7 @@ Dépot TP JavaScript pour cours Technologies du Web de R. Tomczak
 ---
 
 ## Utilisation
-Vous pouvez intéragir avec tout (boutons, lien, champs de texte, slider, etc.) une fois la page web ouverte.
+Une fois `index.html` ouvert vous arrivez sur un menu sur lequel vous pouvez choisir quelle partie du TP vous voulez interagir.
 
 ---
 
