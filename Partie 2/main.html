@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemple HTML/CSS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 data-target="Images">Lien et images</h1>
+  <section id="Images"><p><a href="https://en.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" target="_blank">La page principale de Wikipedia</a></p>
+  <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Logo Google">
+  </section>
+  <hr>
+  <h1 data-target="Elements">Des éléments !</h1>
+  <section id="Elements">
+  <form>
+    <input type="text" id="entree" name="entree" placeholder="Premiers pas avec Javascript :">
+
+    <br><br>
+    <input id="choix1" type="radio" name="choix" class="choix"><span>Choix 1</span>
+    <input id="choix2" type="radio" name="choix" class="choix"><span>Choix 2</span>
+    <input id="choix3" type="radio" name="choix" class="choix"><span>Choix 3</span>
+    <br><br>
+    <input type="range" id="volume" name="volume" min="0" max="100" value="0">
+    <label for="volume" id="label-volume">Volume</label>
+    <br>
+    <label id="volume-value">0</label>
+    <br><br>
+    <label for="case">Une case à cocher</label><input type="checkbox" id="case"><br><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date"><br><br>
+
+    <button type="submit">Ok</button>
+  </form>
+  </section>
+<hr>
+  <h1 data-target="Barres">Barres de progression</h1>
+  <section id="Barres">
+  <label for="download">Téléchargement en cours :</label>
+  <progress id="download" value="70" max="100"></progress><br><br>
+  <label for="space">Espace disponible :</label>
+  <progress id="space" value="40" max="100"></progress>
+  </section>
+</body>
+</html>

@@ -1,0 +1,21 @@
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+}
+
+img{
+    width: 75px;
+    height: auto;
+}
